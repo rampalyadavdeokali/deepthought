@@ -24,14 +24,14 @@ leftPanelBtn.addEventListener('click', () => {
 
 });
 
-// const url = 'https://dev.deepthought.education/assets/uploads/files/files/others/ddugky_project.json';
+const url = 'https://dev.deepthought.education/assets/uploads/files/files/others/ddugky_project.json';
 
 
-// fetch(url, {
-  
-// }).then((response) => {
-//     const data = JSON.parse(response);
-//     console.log(data);
-// }).catch((error) => {
-//     console.log(error);
-// });
+fetch(url, {
+
+}).then((response) => {
+    const data = JSON.parse(response);
+    console.log(data);
+}).catch((error) => {
+    console.log(error);
+});
