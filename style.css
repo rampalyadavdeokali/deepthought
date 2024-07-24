@@ -11,7 +11,6 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-
 }
 
 .nav {
@@ -22,9 +21,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 0 83px;
-
     box-shadow: 0px 4px 4px 0px #00000040;
-
 
     .logo {
         width: 311px;
@@ -33,7 +30,6 @@
     }
 
     .navItems {
-        /* background-color: rgb(255, 112, 69); */
         width: 311px;
         height: 49px;
         display: flex;
@@ -41,9 +37,16 @@
         justify-content: center;
 
         ul {
+            position: relative;
             list-style: none;
             display: flex;
             gap: 20px;
+
+            .redDot {
+                position: absolute;
+                right: 83.5px;
+                top: 8.5px;
+            }
 
             svg {
                 width: 36px;
@@ -71,6 +74,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
 
     .leftPanel {
         background: #FDFDFD;
@@ -160,17 +164,15 @@
         }
     }
 
-
-
     .rightPanel {
         position: absolute;
         right: 0;
-        top: 108px;
-        width: 8vw;
+        top: 20px;
+        width: 6.5vw;
         height: 394px;
         border-radius: 30px 0px 0px 30px;
-        box-shadow: 0px -4px 4px 0px #00000040;
-        box-shadow: 0px 4px 4px 0px #00000040;
+        box-shadow: 0px -4px 4px 0px #00000040,
+            0px 4px 4px 0px #00000040;
 
         #content {
             background: #000000;
@@ -206,7 +208,6 @@
     }
 
     .Technical {
-        /* background-color: aqua; */
         height: 5vw;
         width: 90%;
         display: flex;
@@ -283,8 +284,8 @@
             margin: 2vw 0;
             border-radius: 15px;
             background: #FDFDFD;
-            box-shadow: 0px -4px 4px 0px #00000040;
-            box-shadow: 0px 4px 4px 0px #00000040;
+            box-shadow: 0px -4px 4px 0px #00000040,
+                0px 4px 4px 0px #00000040;
 
             .cardTitle {
                 width: 480px;
@@ -316,7 +317,6 @@
                 padding: 0 18px;
                 display: flex;
                 align-items: center;
-                /* background-color: #3683F0; */
                 box-shadow: 0px 1px 1px 0px #00000040;
 
 
@@ -404,7 +404,6 @@
                         width: 199px;
                         height: 70px;
                         border-radius: 10px;
-                        /* background: #fafafa; */
                     }
 
                     ::placeholder {
@@ -416,10 +415,6 @@
                         font-size: 12px;
                         font-weight: 400;
                     }
-
-
-
-
                 }
 
 
@@ -477,7 +472,6 @@
 
                 .sub-thread {
                     height: 50%;
-                    /* background-color: #3683F0; */
                     border-radius: 0 0 15px 15px;
                     padding: 0 28px;
                     display: flex;
@@ -529,7 +523,7 @@
     .flotingBtn {
         position: absolute;
         right: 4vw;
-        top: 160%;
+        bottom: -140px;
 
         ul {
             list-style: none;
