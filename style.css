@@ -776,5 +776,11 @@ i:hover {
                 right: 20px;
             }
         }
+
+        li:hover {
+            cursor: pointer;
+        }
     }
+
+
 }
