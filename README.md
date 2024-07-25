@@ -1,4 +1,4 @@
-## Successfully completed the DeepThought [Assignment]:([http://example.com](https://docs.google.com/spreadsheets/d/1zVKlABKCQ6Tu4jZ68r8bat57ox0tnia4iThG7r59q5g/edit?gid=642301134#gid=642301134))
+## Successfully completed the DeepThought [Assignment](https://docs.google.com/spreadsheets/d/1zVKlABKCQ6Tu4jZ68r8bat57ox0tnia4iThG7r59q5g/edit?gid=642301134#gid=642301134))
 
 
 Assignment Description:  
