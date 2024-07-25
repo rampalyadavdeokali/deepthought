@@ -111,6 +111,8 @@ function fetchJSONData() {
                     if (titleElement.id == task.task_id) {
                         // Update the title of task
                         titleElement.children[0].innerHTML = `<h3>${task.task_title}</h3>`;
+                        // Update the title of Journey Board
+                        document.querySelector('#panelBodyTitle').innerHTML = `${task.task_title}`;
                         // Update the description of task
                         titleElement.children[1].innerHTML = `<p>${task.task_description.replaceAll(/\r\n/g, '')}</p>`;
                     }
@@ -118,6 +120,8 @@ function fetchJSONData() {
                     if (titleElement.id == element.asset_id) {
                         // Update the title of cards
                         titleElement.children[0].innerHTML = `<h2>${element.asset_title}</h2> <i class="ri-information-2-fill"></i>`;
+                        // Update the sub title of Journey Board
+                        document.getElementById(`J${e}`).innerHTML = `${element.asset_title}`;
                         // Update the description of cards
                         titleElement.children[1].innerHTML = `<p> <span class="bold">Description : </span>${element.asset_description.replaceAll(/\r\n/g, '')}</p>`;
                     }
