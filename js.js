@@ -105,6 +105,7 @@ function fetchJSONData() {
             // let this.data = JSON.parse(data);
             const task = data.tasks[0];
             task.assets.forEach(element => {
+                console.log("copyright: https://www.linkedin.com/in/piyush4444/");
                 cardId.forEach(e => {
                     const titleElement = document.getElementById(`${e}`);
 
